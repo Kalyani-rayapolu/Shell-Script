@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SORCE_DIR="/temp/shellsccript-logs"
+SORCE_DIR="/temp/shellscript-logs"
 R="\e[31m"
 G="\e[32m"
 Y="\e[31m"
