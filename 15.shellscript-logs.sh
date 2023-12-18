@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SOURCE_DIR="/home/centos/tmp/shellscript-logs
-"
+SOURCE_DIR="/home/centos/tmp/shellscript-logs"
+
 R="\e[31m"
 G="\e[32m"
 Y="\e[31m"
