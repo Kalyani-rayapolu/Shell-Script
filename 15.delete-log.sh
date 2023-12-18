@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SORCE_DIR="/temp/shellscript-logs"
+SOURCE_DIR="/temp/shellscript-logs"
 R="\e[31m"
 G="\e[32m"
 Y="\e[31m"
@@ -12,7 +12,7 @@ then
 fi
 
 
-FILES_TO_DELETE=$(find $SORCE_DIR -type f -mtime +14 -name "*.log")
+FILES_TO_DELETE=$(find $SOURCE_DIR -type f -mtime +14 -name "*.log")
 
 while IFS= read -r lie
 do
